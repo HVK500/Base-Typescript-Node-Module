@@ -1,0 +1,17 @@
+{
+  "name": "base-typescript-node-module",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "clean": "trash ./dist"
+  },
+  "author": "Matthew Laird <hvk500@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "trash": "^4.3.0",
+    "typescript": "^3.3.1"
+  }
+}
